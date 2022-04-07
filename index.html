@@ -4,11 +4,101 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS LINKS -->
     <link rel="stylesheet" href="normalize.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="index.desktop.style.css" />
+    <link rel="stylesheet" href="/styles/navbar/desktop.style.css" />
+    <!-- FONTAWESOME LINK -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <i class="fa-solid fa-cart-plus"></i>
+
     <title>Amazon Project</title>
   </head>
   <body>
-    <div>Hello World</div>
+    <header>
+      <!-- MAIN NAVBAR -->
+      <nav class="main_nav">
+        <!--  Main Nav Left-->
+        <div class="main_nav_left">
+          <!-- LOGO -->
+          <a href="#"
+            ><img src="/assets/images/amazon-logo.jpg" alt="logo" class="logo"
+          /></a>
+          <!-- DELLIVER ITEM -->
+          <div class="main_nav_left_item">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <p>Deliver to</p>
+              <h5>Israel</h5>
+            </div>
+          </div>
+        </div>
+        <!--  Main Nav Left End-->
+
+        <!--  Search Box Main Nav Left -->
+        <div class="search_box flex-align-center">
+          <div class="search_box_container">
+            <div class="search_box_container_wrap flex-align-center">
+              <button class="search_box_container__button_all" type="submit">
+                All<i class="fa-solid fa-caret-down"></i>
+              </button>
+              <input type="text" />
+              <button class="search_box_container_button_search" type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!--  Search Box Main Nav End -->
+
+        <!--  Main Nav Right-->
+        <div class="main_nav_right flex-align-center">
+          <div class="main_nav_right_item">
+            <img src="/assets/images/USicon.png" alt="" />
+            <!-- <i class="fa-solid fa-flag"></i> -->
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+          <div class="main_nav_right_item">
+            <h5>Hello, Sign in</h5>
+            <h5>Account & Lists</h5>
+          </div>
+          <div class="main_nav_right_item">
+            <h5>Refund</h5>
+            <h5>& Order</h5>
+          </div>
+          <div class="main_nav_right_item">
+            <i class="fa-solid fa-cart-plus"></i>
+            Cart
+          </div>
+        </div>
+        <!--  Main Nav Right End-->
+      </nav>
+      <!-- MAIN NAVBAR END -->
+
+      <!-- Secondery Navbar -->
+        <div class="second_nav">
+          <div class="second_nav_hamburger">
+            <i class="fa-solid fa-bars"></i> All
+          </div>
+          <ul>
+            <li><a href="#">Today's Deals</a></li>
+            <li><a href="#">Customer Service</a></li>
+            <li><a href="#">Registry</a></li>
+            <li><a href="#">Gift Cards</a></li>
+            <li><a href="#">Sell</a></li>
+            <li><a href="#">Local Delivery in Israel</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Secondery Navbar -->
+    </header>
   </body>
 </html>
