@@ -39,7 +39,7 @@
   height: 42px; */
 }
 .search_box_container_wrap input {
-  width: 760px;
+  width: 1200px;
   padding: 9px;
   font-size: 17px;
   /* color: #000; */
@@ -103,4 +103,27 @@
 .second_nav a {
   color: white;
   text-decoration: none;
+}
+.main_section_nav {
+  border-bottom: 1px solid rgb(204, 202, 202);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding: 10px 15px 5px 10px;
+}
+.main_section_nav ul {
+  list-style: none;
+  display: flex;
+  font-size: 12px;
+}
+.main_section_nav li {
+  padding: 0 10px;
+}
+.main_section_nav a {
+  color: #333;
+  text-decoration: none;
+}
+.main_section_nav li:first-child {
+  font-weight: bold;
 }
