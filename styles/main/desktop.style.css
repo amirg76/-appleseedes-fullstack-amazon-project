@@ -38,9 +38,10 @@
   justify-content: flex-start;
   align-items: flex-start;
   align-content: center;
-  height: 100vh;
+  height: 107vh;
   width: 80%;
   margin: 10px auto;
+  border: 1px solid #333;
 }
 
 /* Main Section Content Pictures */
