@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS LINKS -->
     <link rel="stylesheet" href="normalize.css" />
-    <link rel="stylesheet" href="index.desktop.style.css" />
-    <link rel="stylesheet" href="/styles/navbar/desktop.style.css" />
-    <link rel="stylesheet" href="/styles/main/desktop.style.css" />
-    <link rel="stylesheet" href="/styles/footer/desktop.style.css">
+    <link rel="stylesheet" media="(min-width:1000px)" href="index.desktop.style.css" />
+    <link rel="stylesheet" media="(min-width:1000px)" href="/styles/navbar/desktop.style.css" />
+    <link rel="stylesheet" media="(max-width:999px)" href="/styles/navbar/mobile.style.css">
+    <link rel="stylesheet" media="(min-width:1000px)" href="/styles/main/desktop.style.css" />
+    <link rel="stylesheet" media="(max-width:999px)" href="/styles/main/mobile.style.css">
+    <link rel="stylesheet" media="(min-width:1000px)" href="/styles/footer/desktop.style.css">
+    
     <!-- FONTAWESOME LINK -->
     <link
       rel="stylesheet"
@@ -18,13 +21,98 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
-    <i class="fa-solid fa-cart-plus"></i>
-
+ 
     <title>Amazon Project</title>
   </head>
   <body>
     <header>
+      
+
+      <!-- MAIN NAVBAR MOBILE -->
+     
+      
+      <nav class="main_nav_mobile">
+        <!-- FIRST LINE -->
+        <div class="main_nav_left_mobile">
+          <div class="main_nav_hamburger_mobile">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+                <a href="#"
+            ><img src="/assets/images/amzon-logo-blue.jpg" alt="logo" class="logo_mobile"
+          /></a>
+        </div>
+        <div class="main_nav_right_mobile">
+          Sing In >
+          <img src="/assets/images/singin-icon.png" alt="">
+        </div>
+        <!-- FIRST LINE END -->
+      </nav>
+        <!-- SECOND LINE -->
+        <div class="search_box_mobile">
+          <div class="search_box_container_wrap_mobile ">
+          <input type="text" placeholder="guitar" />
+              <button  type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+          <!-- </div> -->
+        </div>
+        <!-- SECOND LINE END-->
+
+        <!-- THIRD LINE -->
+        <div class="third_nav_mobile">
+          <img src="/assets/images/navigation-icon1.png" alt="">
+          Deliver to Israel
+        </div>
+        <!-- THIRD LINE END-->
+        
+
+      <!-- MAIN NAVBAR MOBILE END-->
+      <!-- MAIN SECTION CONTECT DESCRIPTION DETALIS MOBILE -->
+      <div class="main_section_contect_description_details_mobile">
+        <div class="brand_mobile">
+        <p>Brand: Master Play</p> 
+        <p>38" Wood Guitar With Case and Accessories for Kids/Boys/Girls/Teens/Beginners (38", Sunburst)</p>
+        <div class="best-seller_mobile">
+          <img  src="/assets/images/best-seller.png" alt=""><span> in Electric Guitar Beginner Kits</span>
+        </div>
+      </div>
+       
+          <span><img src="/assets/images/star-fullfill.svg" alt=""><img src="/assets/images/star-fullfill.svg" alt=""><img src="/assets/images/star-fullfill.svg" alt=""><img src="/assets/images/star-fullfill.svg" alt="">
+          <img src="/assets/images/star-halffill.svg" alt=""></i><a href="#" class="rating_mobile"> 9,570 ratings  </a><span>|</span><a href="#"></a></span>
+          
+      </div>
+      <!-- MAIN SECTION CONTECT DESCRIPTION DETALIS MOBILE END-->
+
+      <!-- Main_Section_Contect_Pictures_Main_Mobile -->
+      <div class="main_section_contect_pictures_main_mobile">
+        <img src="/assets/images/frequently-img/pic1.jpg" alt="">
+      </div>
+      <!-- Main_Section_Contect_Pictures_Main_Mobile End-->
+
+      <!-- Main Section Contect Description Pictures mobile--> 
+
+      <div class="main_section_contect_description_pictures_mobile">
+        <h1>Color: Sunburst</h1>
+        <div class="main_section_contect_description_pictures_grid_mobile box-margin-5">
+          <div class="description_pictures_grid_box1 pictures_aside_mobile box-margin-5"><img src="https://m.media-amazon.com/images/I/41TTTEL3rYL._SS36_.jpg" alt="Black"></div>
+          <div class="description_pictures_grid_box2 pictures_aside_mobile box-margin-5"><img src="https://m.media-amazon.com/images/I/416R3LToq9L._SS36_.jpg" alt="Blue" ></div>
+          <div class="description_pictures_grid_box3 pictures_aside_mobile box-margin-5"><img src="https://m.media-amazon.com/images/I/418AHUrixtL._SS36_.jpg" alt="Mahogany"></div>
+          <div class="description_pictures_grid_box4 pictures_aside_mobile box-margin-5"><img src="https://m.media-amazon.com/images/I/41SUMl5iwGL._SS36_.jpg" alt="Natural"></div>
+          <div class="description_pictures_grid_box5 pictures_aside_mobile box-margin-5"><img src="https://m.media-amazon.com/images/I/41eqUrM52fL._SS36_.jpg" alt="Pink"></div>
+          <div class="description_pictures_grid_box6 pictures_aside_mobile box-margin-5"><img src="https://m.media-amazon.com/images/I/412qyWg5XTL._SS36_.jpg" alt="Redburst"></div>
+      </div> 
+    </div>
+      <!-- Main Section Contect Description Pictures mobile End-->
+
+      <!-- END MOBILE VERSION -->
+
+
+      
+
+      <!-- START DESKTOP VERSION -->
+
+
       <!-- MAIN NAVBAR -->
       <nav class="main_nav">
         <!--  Main Nav Left-->
@@ -284,7 +372,7 @@
         <!-- Main Section Contect Description About End-->
 
 
-        <!-- Main Section Contect Description End-->
+        <!-- Main Section Contect Aside -->
         <div class="main_section_contect_aside">
           <h1>$58.99</h1>
               
@@ -312,7 +400,7 @@
               <span  class="checkmark"></span>
               <button class="addToListButton">Add to List</button>
         </div>
-                
+             <!-- Main Section Contect Aside End-->   
       </section>
 
       <!-- Main Section Content End-->

@@ -4,10 +4,10 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 1px solid #333;
+  /* border: 1px solid #333; */
 }
 .footer_section {
-  border: 1px solid #333;
+  border-top: 1px solid rgb(160, 157, 157);
   display: flex;
   width: 80%;
   height: 50vh;
@@ -19,13 +19,13 @@ footer {
   color: #c60;
 }
 .carousel-section {
-  border: 1px solid #333;
   display: flex;
-  flex-basis: 80%;
+  /* flex-basis: 80%; */
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
   align-content: center;
+  flex: 0 1 80%;
 }
 .carousel-section_arrow_left,
 .carousel-section_arrow_right {
@@ -40,6 +40,7 @@ footer {
 }
 .carousel_section_body {
   flex-basis: 96%;
+  display: flex;
 }
 .carousel_section_body_block {
   display: none;
@@ -49,11 +50,10 @@ footer {
   flex-direction: row;
   align-items: center;
   margin: 10px 30px;
-  /* display: none; */
+  flex-basis: 80%;
 }
 .carousel_section_body_mySlides > div {
-  border: 1px solid #333;
-  width: 170px;
+  max-width: 170px;
   height: 150px;
   margin: 10px;
 }
